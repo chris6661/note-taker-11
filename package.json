@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "note-taker-11",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris6661/note-taker-11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris6661/note-taker-11/issues"
+  },
+  "homepage": "https://github.com/chris6661/note-taker-11#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.49.0",
+    "node": "^15.8.0"
+  }
+}
