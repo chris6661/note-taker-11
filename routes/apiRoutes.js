@@ -8,7 +8,7 @@ router.get('/api/notes', (req, res) => {
     res.json(db);
 });
 
-router.post('api/notes', (req, res) => {
+router.post('/api/notes', (req, res) => {
     req.body.id = id; 
     db.push(req.body); 
     fs.writeFileSync('./db/db.json', JSON.stringify(db));
