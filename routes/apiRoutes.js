@@ -1,5 +1,5 @@
 const router = require('express').Router(); 
-const id = require('uuid');  
+const { v4: uuidv4 } = require('uuid');  
 const path = require('path'); 
 const fs = require('fs'); 
 const db = require('../db/db.json');
@@ -13,15 +13,13 @@ router.post('/api/notes', (req, res) => {
     db.push(req.body); 
     fs.writeFileSync('./db/db.json', JSON.stringify(db));
     res.json(db); 
-    router.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '../public', '/notes.html')));
-
 });
 
 router.delete('/api/notes/:id', (req, res) => {
     const id = req.params.id;
     db = db.filter(note => note.id != id);
     fs.writeFileSync('./db/db/json', JSON.stringify(db)); 
-    res.json(db); 
+    res.json(); 
 }); 
 
 module.exports = router; 
