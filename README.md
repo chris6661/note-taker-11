@@ -1,7 +1,7 @@
 # Note Taker Using Express.js
 
 ## Description 
-This application is a simple note taker that can be run through a live server in the terminal or through the deployed app URL. Notes can be saved, viewed after bieng saved, and also deleted in both local server and through application URL. 
+This application is a simple note taker that can be run through a live server in the terminal or through the deployed app URL. Notes can be saved, viewed after bieng saved, and also deleted in both local server and through application URL when they are finished. 
 
 ## Installation
 To install necessary dependencies, run: npm init, npm install express, npm install node.  
