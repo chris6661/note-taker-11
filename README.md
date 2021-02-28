@@ -17,3 +17,6 @@ To run this application, run: npm start to use on a local server 3000, and to vi
  * CSS
  * Bootstrap
  * Deployed with Heroku
+
+![](public/assets/images/notetakersshot1.png)
+![](public/assets/images/notetakersshot2.png)
